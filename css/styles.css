@@ -29,11 +29,11 @@ body {
 .logo-accent {
   color: #212121;
 }
-/* не знаю чи потрібно */
+/* не знаю чи потрібно
 .logo-accent:hover,
 .logo-accent:focus {
     color: #2196f3
-}
+} */
 
 .main-nav-items {
 }
