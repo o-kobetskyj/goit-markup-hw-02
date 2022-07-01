@@ -2,20 +2,17 @@
   /* Fonts */
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
-
   /* Text colors */
   --main-txt-cl: #757575;
   --accent-txt-cl: #2196f3;
   --title-txt-cl: #212121;
   --white-txt-cl: #ffffff;
   --footer-contacts-txt-cl: rgba(255, 255, 255, 0.6);
-
   /* Bg colors */
   --dark-bg-cl: #2f303a;
   --light-bg-cl: #f5f4fa;
   --active-bg-btn-hero: #188ce8;
   --filter-btn-bg-cl: #f5f4fa;
-  /* others */
 }
 
 /* Reset styles */
@@ -26,8 +23,6 @@
   text-decoration: none;
   color: currentColor;
 }
-
-/* Base styles */
 
 /* Page */
 
@@ -113,7 +108,6 @@ body {
   text-transform: uppercase;
   color: var(--title-txt-cl);
 }
-
 .desc {
   font-weight: 400;
   font-size: 14px;
@@ -191,6 +185,7 @@ body {
 }
 
 /* Footer */
+
 .footer {
   background-color: var(--dark-bg-cl);
 }
