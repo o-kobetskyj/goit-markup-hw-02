@@ -75,6 +75,7 @@ body {
   background-color: var(--dark-bg-cl);
 }
 .btn-hero {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -139,7 +140,6 @@ body {
   color: var(--title-txt-cl);
 }
 .command-role {
-  font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
@@ -148,10 +148,10 @@ body {
 /* Portfolio section */
 
 .filter-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26p / 16);
-  text-align: center;
+  line-height: calc(26 / 16);
   letter-spacing: 0.03em;
   color: var(--title-txt-cl);
   background-color: var(--filter-btn-bg-cl);
@@ -177,7 +177,7 @@ body {
 }
 .portfolio-desc {
   font-size: 16px;
-  line-height: calc(30p / 16);
+  line-height: calc(30 / 16);
   letter-spacing: 0.03em;
 }
 
@@ -189,8 +189,9 @@ body {
 .logo-accent-footer {
   color: var(--white-txt-cl);
 }
-.address {
+.footer-address {
   font-style: normal;
+  font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--white-txt-cl);
